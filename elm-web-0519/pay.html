@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>饿了么支付页面</title>
+    <!--    <link href="input.css" type="text/css" rel="stylesheet">-->
+    <link href="output.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+          crossorigin="anonymous"/>
+    <!--    <script src="https://cdn.tailwindcss.com"></script>-->
+    <style>
+        h1{text-align:center}
+        h2{text-align:right}
+        h3{text-align:left}
+        img{
+            border: none;
+        }
+
+        .testIMG{
+            float: left;
+            display: inline;
+            margin-top: 0;
+            margin-left: 5px;
+        }
+        .testTXT{
+            float: left;
+            display: inline;
+            margin-top: 15px;
+            margin-left: 5px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="bodyPad">
+    <div class="mainPad">
+        <div class="headPad">
+            <div class="pl-4">
+                <h1>在线支付</h1>
+            </div>
+        </div>
+        <font color="#a9a9a9">&nbsp;&nbsp;订单信息：</font>
+        <div>&nbsp;&nbsp;万家饺子（软件园E18店）&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="red">￥49</font></div>
+        <div>&nbsp;&nbsp;纯肉鲜肉（水饺）x2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;￥15</div>
+        <div>&nbsp;&nbsp;玉米鲜肉（水饺）x1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;￥16</div>
+        <div>&nbsp;&nbsp;配送费&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;￥3</div>
+
+
+        <div class="testIMG">
+            <img src="images/支付宝.png" width="60" height="60" >
+        </div>
+        <div class="testTXT"><span>支付宝</span></div>
+        <br/>
+        <br/><br/>
+        <div class="testIMG">
+            &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<img src="images/微信支付.png" width="50" height="50" >
+            </div>
+        <br/><div class="testTXT"><span>微信支付</span></div>
+
+        <h1><button style="background-color:lawngreen;width: 360px;height: 40px" onclick="location.href='home.html'"><h1><font color="#f8f8ff"><b>确认支付</b></font> </h1></button></h1>
+
+    </div>
+    <div class="barPad">
+        <div>
+            <i class="fas fa-home" onclick="location.href='home.html'"></i>
+            <br/>
+            首页
+        </div>
+        <div>
+            <i class="fad fa-corn"
+               style="--fa-secondary-opacity: 1.0; --fa-primary-color: mediumseagreen; --fa-secondary-color: gold;"></i>
+            <br/>
+            发现
+        </div>
+        <div>
+            <i class="fad fa-cookie-bite"
+               style="--fa-secondary-opacity: 1.0; --fa-primary-color: saddlebrown; --fa-secondary-color: burlywood;"></i>
+            <br/>
+            订单
+        </div>
+        <div>
+            <i class="fad fa-user-graduate" style="color:aqua"></i>
+            <br/>
+            我的
+        </div>
+    </div>
+</div>
+</body>
+</html>

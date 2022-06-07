@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>饿了么主页面</title>
+    <!--    <link href="input.css" type="text/css" rel="stylesheet">-->
+    <link href="output.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+          crossorigin="anonymous"/>
+    <!--    <script src="https://cdn.tailwindcss.com"></script>-->
+    <style>
+        h1{text-align:center}
+        h2{text-align:left}
+    </style>
+</head>
+<body>
+
+<div class="bodyPad">
+
+    <div class="mainPad">
+        <div class="headPad">
+            <div class="pl-4">
+                <i class="fas fa-map-marker-alt"></i>
+                呈贡大学城-云南大学
+            </div>
+            <div class="m-4">
+                <input type="text" placeholder="搜索饿了么商家，商铺名称"/>
+            </div>
+        </div>
+        <div>
+            <!--商品分类-->
+            <div class="cataMenu">
+                <div class="grid grid-cols-5 gap-3">
+                    <div>
+                        <img src="images/沙拉.png">
+                        沙拉
+                    </div>
+                    <div>
+                        <img src="images/面包.png">
+                        面包
+                    </div>
+                    <div>
+                        <img src="images/白菜.png">
+                        白菜
+                    </div>
+                    <div><img src="images/奶茶.png">
+                        奶茶
+                    </div>
+                    <div><img src="images/汉堡包.png">
+                        汉堡包
+                    </div>
+                    <div><img src="images/蔬菜.png">
+                        蔬菜
+                    </div>
+                    <div><img src="images/面包.png">
+                        面包
+                    </div>
+                    <div><img src="images/面包.png">
+                        面包
+                    </div>
+                    <div><img src="images/面包.png">
+                        面包
+                    </div>
+                    <div><img src="images/面包.png">
+                        面包
+                    </div>
+                </div>
+            </div>
+            <!--广告-->
+            <div class="adPad">
+                <a href="#">
+                    <img src="images/介绍图片.jpg"/>
+                </a>
+            </div>
+            <!--商家推荐列表-->
+            <div class="businessPad">
+                <div class="titlePad">
+                    <span></span>
+                    推荐商家
+                    <span></span>
+                </div>
+                <div class="searchBar">
+                    <div>综合排序</div>
+                    <div>距离最近</div>
+                    <div>销量最高</div>
+                    <div>筛选</div>
+                </div>
+                <!--第一个商家-->
+                <div class="businessList">
+                    <div class="businessCard">
+                        <div class="businessIcon">
+                            <img src="https://img2.baidu.com/it/u=1182370392,1581589736&fm=253&fmt=auto&app=120&f=JPEG?w=1080&h=720"> <!--开发者工具中找到-->
+                        </div>
+                        <div class="businessInfo" onclick="location.href='shop.html'">
+                            <div>万家饺子（软件园E18店）</div>
+
+                            <div>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                4.9月销售992
+                            </div>
+                            <div>￥15起送|￥3配送</div>
+                            <div>各种饺子炒菜</div>
+                        </div>
+                    </div>
+                </div>
+                <!--第二个商家-->
+                <div class="businessList">
+                    <div class="businessCard">
+                        <div class="businessIcon">
+                            <img src="images/小锅豆腐.webp"> <!--本地图片，先拖到左边-->
+                        </div>
+                        <div class="businessInfo">
+                            <div>小锅饭豆腐馆（全运店）</div>
+                            <div>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                4.6月销售513
+                            </div>
+                            <div>￥15起送|￥3配送</div>
+                        </div>
+                    </div>
+                </div>
+                <!--第三个商家-->
+                <div class="businessList">
+                    <div class="businessCard">
+                        <div class="businessIcon">
+                            <img src="images/麦当劳.webp">
+                        </div>
+                        <div class="businessInfo">
+                            <div>麦当劳麦乐送（全运路店）</div>
+                            <div>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                4.9月销售1139
+                            </div>
+                            <div>￥15起送|￥3配送</div>
+                        </div>
+                    </div>
+                </div>
+                <!--第四个商家-->
+                <div class="businessList">
+                    <div class="businessCard">
+                        <div class="businessIcon">
+                            <img src="images/米村拌饭.webp"> <!--本地图片，先拖到左边-->
+                        </div>
+                        <div class="businessInfo">
+                            <div>米村拌饭（浑南店）</div>
+                            <div>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                4.5月销售501
+                            </div>
+                            <div>￥15起送|￥3配送</div>
+                        </div>
+                    </div>
+                </div>
+                <!--第五个商家-->
+                <div class="businessList">
+                    <div class="businessCard">
+                        <div class="businessIcon">
+                            <img src="images/串记串道.webp">
+                        </div>
+                        <div class="businessInfo">
+                            <div>串记串到（中海康城店）</div>
+                            <div>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                4.8月销售1096
+                            </div>
+                            <div>￥15起送|￥3配送</div>
+                        </div>
+                    </div>
+                </div>
+                <!--第六个商家-->
+                <div class="businessList">
+                    <div class="businessCard">
+                        <div class="businessIcon">
+                            <img src="images/半亩良田排骨米饭.webp"> <!--本地图片，先拖到左边-->
+                        </div>
+                        <div class="businessInfo">
+                            <div>半亩良田排骨米饭</div>
+                            <div>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                4.8月销售996
+                            </div>
+                            <div>￥15起送|￥3配送</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="barPad">
+        <div>
+            <i class="fas fa-home"></i>
+            <br/>
+            首页
+        </div>
+        <div>
+            <i class="fad fa-corn"
+               style="--fa-secondary-opacity: 1.0; --fa-primary-color: mediumseagreen; --fa-secondary-color: gold;"></i>
+            <br/>
+            发现
+        </div>
+        <div>
+            <i class="fad fa-cookie-bite" onclick="location.href='order.html'"
+               style="--fa-secondary-opacity: 1.0; --fa-primary-color: saddlebrown; --fa-secondary-color: burlywood;"></i>
+            <br/>
+            订单
+        </div>
+        <div>
+            <i class="fad fa-user-graduate" onclick="location.href='login.html'" style="color:aqua"></i>
+            <br/>
+            我的
+        </div>
+    </div>
+
+
+
+</div>
+
+</body>
+</html>
+
